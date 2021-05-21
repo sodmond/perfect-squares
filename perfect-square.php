@@ -3,7 +3,7 @@
 function squares($a, $b) {
     $output = 0;
     $i = round(sqrt($a));
-    while ($i<$b){
+    while ($i<=$b){
         $sq = $i*$i;
         if ($sq >= $a && $sq <= $b){ 
             $output += 1;
